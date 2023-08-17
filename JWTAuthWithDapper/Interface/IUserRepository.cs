@@ -4,6 +4,6 @@ namespace JWTAuthWithDapper.Interface
 {
     public interface IUserRepository
     {
-        public List<UserInfo> SelectUser(string email, string password);
+        public UserInfo SelectUser(string email, string password);
     }
 }
