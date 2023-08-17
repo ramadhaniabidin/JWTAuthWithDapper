@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vwVzHKNQOxMOD5NliZxXQaURaK+DPsQlIT3YTB2WS40=",
+  "Source": "JWTAuthWithDapper",
+  "BasePath": "_content/JWTAuthWithDapper",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
