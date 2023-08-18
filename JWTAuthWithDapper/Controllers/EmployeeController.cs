@@ -1,4 +1,5 @@
 ﻿using JWTAuthWithDapper.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace JWTAuthWithDapper.Controllers
@@ -13,6 +14,7 @@ namespace JWTAuthWithDapper.Controllers
             _employeeRepository = employeeRepository;
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult GetAllEmployees()
         {
